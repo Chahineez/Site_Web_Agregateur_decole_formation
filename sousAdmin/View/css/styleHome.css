@@ -1,0 +1,32 @@
+#containerZone
+{
+    width: 100%;
+    height: auto;
+    margin: 10% 0px 0px 0px;
+    padding: 0px;
+    float: top;
+}
+
+
+#container1
+{
+    width: 100%;
+    height: auto;
+    float: top;
+    margin: 10% 0px 0px 0px;
+    padding: 0px;
+}
+
+
+body{
+
+    background: #fafafa;
+   /* margin: 25px;
+	padding: 50px;
+	border: 8px solid #0000cc;*/
+
+}
+
+#auth {
+    margin: 0px 40% 0px 40% ;
+}

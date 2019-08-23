@@ -1,0 +1,229 @@
+
+body{
+	margin: 25px;
+	padding: 50px;
+	border: 8px solid #0000cc;
+}
+
+
+.tableau{
+	width: 70%;
+	height: 200px;
+	border-collapse: collapse;
+	background-color: rgb(223, 223, 223);
+	font-size: 19px;
+}
+
+.formation{
+ font-size: 20px;
+
+}
+
+ul a:hover {
+ color: #f44b42;
+
+}
+
+th{
+    background-color: #4CAF50;
+	color: white;	
+	font-style: italic;
+	font-weight: bold;
+}
+
+tr:hover{
+	background-color: #4CAF50; 
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+
+h1{
+	font-size: 40px;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    position: sticky;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+
+li.formation {
+    float: left; /* or inline display: inline*/;
+    background-color: #333;
+    margin: 2px 2px;
+    width: 200px;
+    padding: 0px 0px;
+}
+
+li.formation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.formation:hover {
+    background-color: #ff9900;
+}
+
+li.formation ul 
+{
+    display: none;
+}
+
+li.formation:hover  ul
+{
+    display: block;
+}
+
+li.formation ul li {
+    background-color: black;
+    font-size: 18px;
+    font-family: alto;
+    text-align: center;
+
+}
+
+li.formation ul li a{
+    padding: 10px;
+    display: block;
+
+}
+
+li.formation ul li:hover {
+    background-color: #42f456;
+}
+
+
+
+
+img{
+    width: 100%;
+    height : 100%;
+}
+.slid_1, .slid_2, .slid_3, .slid_4
+{
+  position: absolute;
+  width: 1050px;
+  height: 500px;
+}
+
+.slid_1{left: 0px; }
+.slid_2{left: 1070px;}
+.slid_3{left: 2140px;}
+.slid_4{left: 3210px;}
+
+.contener_slideshow
+{
+  background-color :black;
+  width:1070px;
+  height:500px;
+  overflow: hidden;
+  position: relative;
+}
+.contener_slide
+{
+  position: absolute;
+  animation-name: anim_slide; 
+  animation-duration: 30s;
+  animation-iteration-count:infinite;
+  }
+@-webkit-keyframes anim_slide 
+{
+  0%  {right:4280px;}
+  11% {right:4280px;}
+  29% {right:3210px;}
+  41% {right:3210px;}
+  54% {right:2140px;}
+  71% {right:2140px;}
+  83% {right:1070px;}
+  90% {right:1070px;}
+  100% {right: 4280px;}
+
+}
+.contener_slide:hover
+{
+  animation-play-state: paused; 
+  } 
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.sub {
+  width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div#formulaire1{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%
+}
+
+h1{
+  text-align: center;
+}

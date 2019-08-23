@@ -1,0 +1,12 @@
+body #containerLogo{
+    width: 80%;
+    height: 10%;
+    padding: 0px;
+}
+
+#containerLogo img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+
+}

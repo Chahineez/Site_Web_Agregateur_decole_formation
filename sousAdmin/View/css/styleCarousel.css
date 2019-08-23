@@ -1,0 +1,21 @@
+
+
+
+
+body #containerSlider{
+    width: 80%;
+    height: 20%;
+
+}
+
+
+#myCarousel .nav {
+	background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+
+
+
+
